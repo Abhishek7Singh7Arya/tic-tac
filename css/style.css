@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    color: #fff;
+    background:#56baed;
+  }
+
+  /* pop up settings */
+  .pop-up{
+    background-color: yellow;
+    width: 35rem;
+    height: 25rem;
+    position:absolute;
+    left: 31%;
+    top: 7rem;
+ 
+   
+  visibility: hidden;
+  }
+  #cross{
+    
+   text-align: right;
+   margin-right: 7px;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+
+  }
+  #status{
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+
+  /* container settings */
+  .container{
+     width: 100%;
+    min-height: 100vh;
+    text-align:center;
+  }
+  .container h1{
+    padding-bottom: 2rem;
+  }
+  
+
+  /* tic-tac area  */
+  .tic-tac{
+      border: 1px solid red;
+      max-width: 32rem;
+      margin: 3rem auto;
+      min-height: 32rem;
+      background-color: #56baed;
+      border-radius: 7px;
+      padding: 5rem;
+  }
+
+ /* box section setting */
+  .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+      display: inline-block;
+      background-color: #56baed;
+      width: 100px;
+      height: 100px;
+      border: 1px solid white;
+      border-radius: 7px;
+      /* background-image: url("../images/c.jpg"); */
+      background-position: center;
+      background-size: cover;
+  }
+
+  /* button setting */
+  #check-btn{
+    width: 101px;
+    height: 40px;
+    border-radius: 7px;
+  }
